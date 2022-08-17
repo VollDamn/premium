@@ -1,8 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 import "./Main.css";
 import { Link } from "react-router-dom";
 import { AiOutlineTrademarkCircle } from 'react-icons/ai'
+import { HiOutlineMinus } from 'react-icons/hi'
 function Main() {
+
+
     return (
         <div className='main-content'>
             <div className='header'><img src="../LOGO-WDR.png" alt="LOGO-WDR" /></div>
@@ -19,16 +22,16 @@ function Main() {
                 <div className='content-inside'>
                     <div className='user'>Utilizador</div>
                     <div className='content-checkbox'>
-                        <div className='content-checkbox-title'>Tipo de utilizador</div>
+                        <div className='content-checkbox-title'>Tipo de utilizador <HiOutlineMinus /></div>
                         <div className='checkbox'>
                             <div className='individual-checkbox'>
-                                <input type="checkbox" />Project Manager
+                                <input type="checkbox" /><span>Project Manager</span>
                             </div>
                             <div className='individual-checkbox'>
-                                <input type="checkbox" /> Developer
+                                <input type="checkbox" /><span> Developer </span>
                             </div>
                             <div className='individual-checkbox'>
-                                <input type="checkbox" /> Architect
+                                <input type="checkbox" /><span> Architect </span>
                             </div>
                         </div>
                     </div>

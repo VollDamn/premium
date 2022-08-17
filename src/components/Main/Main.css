@@ -65,6 +65,9 @@ input:focus {
 .user {
     display: flex;
     padding: 20px;
+    font-size: x-large;
+    align-items: center;
+    padding: 10px 20px 10px 20px;
 }
 
 .content-checkbox {
@@ -75,6 +78,10 @@ input:focus {
 
 .content-checkbox-title {
     background-color: #ced4da;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px 10px 20px;
 }
 
 .checkbox {
@@ -87,6 +94,18 @@ input:focus {
 .individual-checkbox {
     display: flex;
     flex-direction: row;
+    font-weight: normal;
+
+}
+
+.individual-checkbox input[type=checkbox]+span {
+    font-weight: normal;
+
+}
+
+.individual-checkbox input[type=checkbox]:checked+span {
+    font-weight: bold;
+    color: black;
 }
 
 .content-form {
