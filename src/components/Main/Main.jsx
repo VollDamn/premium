@@ -1,6 +1,5 @@
-import React, { useState } from 'react';
+import React from 'react';
 import "./Main.css";
-import { Link } from "react-router-dom";
 import { AiOutlineTrademarkCircle } from 'react-icons/ai'
 import { HiOutlineMinus } from 'react-icons/hi'
 function Main() {
