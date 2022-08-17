@@ -36,22 +36,23 @@ function Main() {
                         </div>
                     </div>
                     <div className='content-form'>
-                        <div classname="content-form-title">Contacto</div>
+                        <div className="content-form-title"> Contacto  <HiOutlineMinus /></div>
                         <div className='form'>
                             <div className='individual-form'>
-                                <input type="email" />Email
+                                Email<input type="email" />
                             </div>
                             <div className='individual-form'>
-                                <input type="password" />Palavra-passe
+                                Palavra-passe<input type="password" />
                             </div>
                             <div className='individual-form'>
-                                <input type="phone" />Telefone
+                                Telefone<input type="tel" placeholder="+351" pattern="[0-9]{3}[0-9]{3}[0-9]{3}"
+                                    required />
                             </div>
                         </div>
                     </div>
-                    <div classname="buttons">
+                    <div className="buttons">
                         <button className='cancel-button'>Cancelar</button>
-                        <button className='save-button'>Guardar</button>
+                        <button className='save-button'>GUARDAR</button>
                     </div>
                 </div>
             </div>
