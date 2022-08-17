@@ -1,0 +1,168 @@
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+input {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: gray solid 1.5px;
+    padding: 10px;
+}
+
+input[type=checkbox] {
+    /* Double-sized Checkboxes */
+    -ms-transform: scale(1.5);
+    /* IE */
+    -moz-transform: scale(1.5);
+    /* FF */
+    -webkit-transform: scale(1.5);
+    /* Safari and Chrome */
+    -o-transform: scale(1.5);
+    /* Opera */
+    transform: scale(1.5);
+    padding: 10px;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 30px white inset !important;
+    box-shadow: 0 0 0 30px white inset !important;
+}
+
+textarea:focus,
+input:focus {
+    outline: none;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.header {
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    padding: 0 20px 0 20px;
+}
+
+.content {
+    height: 94vh;
+    display: flex;
+}
+
+.content-inside {
+    width: 85vw;
+    background-color: #dee2e6;
+}
+
+
+.user {
+    display: flex;
+    padding: 20px;
+    font-size: 35px;
+    align-items: center;
+    padding: 35px 20px 10px 45px;
+}
+
+.content-checkbox {
+    padding: 30px 45px 0px 45px;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-checkbox-title,
+.content-form-title {
+    background-color: #ced4da;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px 15px 20px;
+    font-weight: 600;
+    font-size: larger;
+
+
+}
+
+.checkbox {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: white;
+}
+
+.individual-checkbox {
+    display: flex;
+    flex-direction: row;
+    font-weight: normal;
+    padding: 10px 0 10px 0;
+
+}
+
+.individual-checkbox span {
+    padding: 5px;
+
+}
+
+.individual-checkbox input[type=checkbox]+span {
+    font-weight: normal;
+
+}
+
+.individual-checkbox input[type=checkbox]:checked+span {
+    font-weight: bold;
+    color: black;
+}
+
+.content-form {
+    padding: 0px 45px 20px 45px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+}
+
+.individual-form {
+    display: flex;
+    width: 400px;
+    padding: 30px 20px 30px 32px;
+    flex-direction: column;
+    font-weight: 700;
+    color: grey;
+}
+
+.buttons {
+    display: flex;
+    justify-content: flex-end;
+    padding: 30px 35px 0 0;
+
+}
+
+.cancel-button {
+    background-color: white;
+}
+
+.save-button {
+    background-color: #40aae8;
+    color: white;
+    border: none;
+    font-weight: bold;
+}
+
+button {
+    border: solid .5px grey;
+    border-radius: 25px;
+    width: 220px;
+    height: 40px;
+    margin: 10px;
+}

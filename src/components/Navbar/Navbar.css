@@ -1,0 +1,31 @@
+.link {
+    padding: 10px 40px 10px 40px;
+}
+
+
+.navbar-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 15vw;
+    height: 90vh;
+    background-color: #264653;
+    color: aliceblue;
+    padding: 40px 0 0 0;
+
+}
+
+.underline {
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color: #274C6A;
+}
