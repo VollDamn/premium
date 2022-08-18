@@ -58,7 +58,7 @@ input:focus {
 
 .content-inside {
     width: 85vw;
-    background-color: #dee2e6;
+    background-color: rgb(245, 245, 245);
 }
 
 
@@ -78,7 +78,7 @@ input:focus {
 
 .content-checkbox-title,
 .content-form-title {
-    background-color: #ced4da;
+    background-color: rgb(235, 235, 235);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -153,7 +153,7 @@ input:focus {
 }
 
 .save-button {
-    background-color: #40aae8;
+    background-color: rgb(77, 170, 225);
     color: white;
     border: none;
     font-weight: bold;
