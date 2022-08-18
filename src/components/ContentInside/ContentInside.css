@@ -59,6 +59,9 @@ input:focus {
 .content-inside {
     width: 85vw;
     background-color: rgb(245, 245, 245);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
 }
 
 
@@ -144,7 +147,7 @@ input:focus {
 .buttons {
     display: flex;
     justify-content: flex-end;
-    padding: 30px 35px 0 0;
+    padding: 30px 35px 30px 0;
 
 }
 
