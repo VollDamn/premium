@@ -6,7 +6,7 @@ function Navbar() {
         <div className='navbar-content'>
             <div className='navbar'>
                 <div className='link'>Lorem Ipsum</div>
-                <div className='link'>Utilizador</div>
+                <div className='link'><b>Utilizador</b></div>
                 <div className='link'>Quantum solum</div>
                 <div className='link'>Marcus Tremer</div>
             </div>
